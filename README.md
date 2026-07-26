@@ -80,11 +80,11 @@ These visualizations were used to identify trends and relationships within the d
 Customer-Satisfaction-Survey-Analysis/
 │
 ├── data/
-│   ├── raw_data.csv
-│   └── cleaned_data.csv
+│   ├── Invistico_Airline.csv
+│   └── Cleaned_Invistico_Airline.csv
 │
 ├── notebooks/
-│   └── analysis.ipynb
+│   └── Group Work(3)(1).ipynb
 │
 ├── visuals/
 │   ├── bar_chart.png
