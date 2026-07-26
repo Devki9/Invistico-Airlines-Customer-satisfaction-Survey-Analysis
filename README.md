@@ -27,15 +27,14 @@ The dataset contains customer demographic information, flight details, service r
 
 
 ## Technologies Used
-- Python
+- Python (Pandas, NumPy, Matplotlib)
 - Google Colab
-- Pandas
-- NumPy
-- Matplotlib
 - Seaborn
 - Git
 - GitHub
 
+## Setup
+pip install -r requirements.txt
 
 ## Data Cleaning
 The following data cleaning steps were performed:
@@ -77,7 +76,7 @@ These visualizations were used to identify trends and relationships within the d
 
 ## Project Structure
 ```
-Customer-Satisfaction-Survey-Analysis/
+Invistico-Airline-Customer-Satisfaction-Survey-Analysis/
 │
 ├── data/
 │   ├── Invistico_Airline.csv
