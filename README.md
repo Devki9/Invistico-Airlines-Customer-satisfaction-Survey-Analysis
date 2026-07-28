@@ -1,43 +1,25 @@
 # Customer Satisfaction Survey Analysis
 
-## Project Overview
-This project analyzes customer satisfaction survey data from the **Invistico Airline** dataset obtained from Kaggle. The objective is to identify the factors that influence customer satisfaction by cleaning, analyzing, and visualizing airline survey data using Python.
-
-The project demonstrates the complete data science workflow, including data cleaning, exploratory data analysis, visualization, and interpretation of results to support data-driven decision-making.
-
+## Project Description
+This project analyzes customer satisfaction survey data from the **Invistico Airline** dataset obtained from Kaggle. The objective is to identify the factors that influence customer satisfaction by cleaning, analyzing, and visualizing airline survey data using Python. The project demonstrates the complete data science workflow, including data cleaning, exploratory data analysis, visualization, and interpretation of results to support data-driven decision-making.
 
 ## Problem Statement
-Airlines collect large amounts of customer feedback, but without proper analysis it is difficult to identify the factors that influence passenger satisfaction.
-
-This project aims to analyze airline customer survey data to determine how factors such as travel class, travel type, delays, and onboard services affect overall customer satisfaction.
-
-
-## Objectives
-- Clean and prepare the dataset for analysis.
-- Perform exploratory data analysis (EDA).
-- Identify patterns and trends affecting customer satisfaction.
-- Create meaningful visualizations.
-- Draw conclusions and provide recommendations based on the findings.
-
+Airlines collect large amounts of customer feedback, but without proper analysis it is difficult to identify the factors that influence passenger satisfaction. This project aims to analyze airline customer survey data to determine how factors such as travel class, travel type, delays, and onboard services affect overall customer satisfaction.
 
 ## Dataset
-**Dataset:** Invistico Airline Customer Satisfaction Dataset
-**Source:** Kaggle
-The dataset contains customer demographic information, flight details, service ratings, delays, and customer satisfaction responses.
+- Source: Invistico Airline Customer Satisfaction Dataset (Kaggle)
+- Number of rows: 129,880
+- Number of columns: 23
+- Key columns: `satisfaction`, `Customer Type`, `Type of Travel`, `Class`, `Flight Distance`, `Seat comfort`, `Inflight entertainment`, `Departure Delay in Minutes`, `Arrival Delay in Minutes`
 
-
-## Technologies Used
-- Python (Pandas, NumPy, Matplotlib)
-- Google Colab
+## Tools Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
 - Seaborn
-- Git
-- GitHub
-
-## Setup
-pip install -r requirements.txt
 
 ## Data Cleaning
-The following data cleaning steps were performed:
 - Removed duplicate records.
 - Handled missing values.
 - Renamed column names for consistency.
@@ -45,86 +27,41 @@ The following data cleaning steps were performed:
 - Created a new **Total Delay** column by combining departure and arrival delays.
 - Handled outliers where appropriate.
 
-
-## Exploratory Data Analysis
-The analysis included:
-- Filtering
-- Sorting
-- Grouping
-- Aggregation
-- Value Counts
-- Summary Statistics
-
-Key questions explored included:
+## Analysis Questions
 - What is the distribution of customer satisfaction?
 - Does travel class influence customer satisfaction?
 - Does travel type affect customer satisfaction?
 - How do flight delays relate to customer satisfaction?
 - Which services receive the highest customer ratings?
 
+## Visualizations
+- **Bar Chart** – compares satisfaction levels across categories such as travel class and travel type.
+- **Pie Chart** – shows the overall proportion of satisfied vs. dissatisfied customers.
+- **Histogram** – displays the distribution of numerical variables such as age and flight distance.
+- **Scatter Plot** – examines the relationship between delays and satisfaction.
+- **Box Plot** – highlights the spread and outliers in delay and rating data across groups.
+- **Heatmap** – visualizes correlations between service ratings and satisfaction.
 
-## Data Visualizations
-The project includes the following visualizations:
-- Bar Chart
-- Pie Chart
-- Histogram
-- Scatter Plot
-- Box Plot
-- Heatmap
-These visualizations were used to identify trends and relationships within the dataset.
-
-
-## Project Structure
-```
-Invistico-Airline-Customer-Satisfaction-Survey-Analysis/
-│
-├── data/
-│   ├── Invistico_Airline.csv
-│   └── Cleaned_Invistico_Airline.csv
-│
-├── notebooks/
-│   └── Group Work(3)(1).ipynb
-│
-├── visuals/
-│   ├── bar_chart.png
-│   ├── pie_chart.png
-│   ├── histogram.png
-│   ├── scatter_plot.png
-│   ├── box_plot.png
-│   └── heatmap.png
-│
-├── presentation/
-│   └── final_presentation.pdf
-│
-├── README.md
-└── requirements.txt
-```
-
-## Key Findings
-- Business class passengers generally reported higher satisfaction levels.
+## Key Insights
+- Business class passengers generally reported higher satisfaction levels than economy passengers.
 - Business travellers were more satisfied than personal travellers.
 - Longer delays were associated with lower customer satisfaction.
 - Some onboard services, such as seat comfort and inflight entertainment, received higher average ratings than others.
 - Overall, the dataset contained more satisfied customers than dissatisfied customers.
 
+## Recommendations
+- Prioritize improvements to onboard services with lower ratings, such as inflight wifi and food and drink.
+- Invest in initiatives that minimize departure and arrival delays, given their strong link to dissatisfaction.
+- Tailor service offerings for economy and personal-travel passengers to close the satisfaction gap with business class and business travellers.
+- Continue monitoring satisfaction trends over time to catch emerging issues early.
+- Consider deeper segmentation (e.g., by age or flight distance) to personalize service improvements.
 
+## How to Run the Project
+1. Clone the repository
+2. Install requirements
+3. Open the notebook
+4. Run all cells
 
-## Conclusion
-The analysis shows that customer satisfaction is influenced by several factors, including travel class, purpose of travel, flight delays, and service quality. By understanding these factors, airlines can make informed decisions to improve customer experience and increase passenger satisfaction.
-
-
-## Future Improvements
-Possible extensions of this project include:
-- Building a machine learning model to predict customer satisfaction.
-- Creating an interactive dashboard using Power BI or Tableau.
-- Performing customer segmentation based on travel behaviour.
-- Comparing satisfaction across different airlines.
-
-## Authors
-Student Names
+## Author
 Devki Chavda (678097)
 Daniel Ngunya Maina (202603199)
-
-
-## License
-This project was developed for academic purposes as part of an Introduction to Data Science programming project.
