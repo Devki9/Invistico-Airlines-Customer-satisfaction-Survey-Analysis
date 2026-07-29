@@ -15,9 +15,10 @@ Airlines collect large amounts of customer feedback, but without proper analysis
 ## Tools Used
 - Python
 - Pandas
-- NumPy
 - Matplotlib
 - Seaborn
+- Git
+- GitHub
 
 ## Data Cleaning
 - Removed duplicate records.
