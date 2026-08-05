@@ -26,7 +26,6 @@ Airlines collect large amounts of customer feedback, but without proper analysis
 - Renamed column names for consistency.
 - Standardized text values.
 - Created a new **Total Delay** column by combining departure and arrival delays.
-- Handled outliers where appropriate.
 
 ## Analysis Questions
 - What is the distribution of customer satisfaction?
